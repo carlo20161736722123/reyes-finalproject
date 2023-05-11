@@ -1,0 +1,81 @@
+
+
+<html>
+	<head>
+			<title>Home Page</title>
+			<meta name="author" content="Carlo Reyes" />
+			<meta name="description" content="Main Page" />
+			<meta name="keywords" content="HTML, CSS, Links" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+			<link rel="stylesheet" type="text/ccs" href="styles/index"/>
+			<link rel="stylesheet" href="styles/index.css">
+	</head>
+	
+			
+	<body>
+		
+				<div class="topcontainer">		
+				<a href="">Final's Project </a></li><br>
+				
+				<a href="">HUMCOM1_IDA1_2022B</a></li>
+				
+				</div>		
+		
+		
+		
+		<div class="container">		
+				
+		<section>
+				
+				
+				<ul type="circle">
+				
+				<li> <a href="pages/Product_List.html">Product List Page. </a></li>
+				<p>The Product List page is consist of images of the top 5 fastest car in the world.</p>
+				<p>The page consist of short sample video of the car.</p>
+				<p>The page consist of car details like engine specs, performance and its price.</p>
+				<p>The page reach out to the company thru e-mail address, telephone number. a postal address of the company.</p>
+				<p>The page consist of the cars engine, performance specificatios and their price</p>
+				
+				<li> <a href="pages/Registration_Form.html">Registration Page</a></li>
+				
+				<p>The Registration Page is a newsletter that provides regular communication to its subscriber. </p>
+				<p>The user can register to the newsletter with their name, password, email address, address and phone number (optional)</p>
+				<p>The subscriber then can choose what type of about news, events, or other information related to a particular topic or organization</p>
+				
+				<li> <a href="pages/Reference.html">Reference Page </a></li>
+				
+						<p>The reference page consist of another source of information such as article, books, online resources, etc.</p>
+						<p>The online sources are used to puts your work in context, demonstrates the breadth and depth of your research, and acknowledges other people's work  </p>
+						<p>Always reference whenever the use someone else's idea.</p>
+				</ul>
+				
+				
+			
+		</section>
+		</div>
+		
+		
+		
+		
+			
+				<div class="botcontainer">	
+
+			
+				<a href="">Developed by: Carlo Reyes</a></li>
+				
+				
+	
+				
+				
+		</div>
+		
+
+	
+	
+	
+	</body>
+		
+		
+</html>

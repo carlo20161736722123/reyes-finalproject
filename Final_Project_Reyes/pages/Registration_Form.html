@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title> Newsletter Form</title>
+		<meta name="author" content="Carlo Reyes" />	
+		<meta name="description" content="Newsletter Form" />
+		<meta name="keywords" content="HTML, CSS, Links, Inputs, Labels" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/ccs" href="../styles/Registration_Form"/>
+		<link rel="stylesheet" href="../styles/Registration_Form.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+	
+		<div class="navbar">
+  <a class="#navbar" href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+</div>
+	
+	<section>
+	<form>
+	<fieldset>
+		<div class="container">
+			<h1>Subscribe to our Newsletter</h1>
+			<input type="text" placeholder="Name" name="name" required>
+			<input type ="password" id="Password" placeholder="Password"required>
+			<input type="email" placeholder="Email address" name="mail" required>
+		
+		<div class="container2">
+			<h2>Optional</h2>
+		</div>
+	
+		<label for ="address">Address:<br>
+							
+			<textarea type ="text" placeholder ="Address:"> </textarea><br><br>
+			<input type ="tel" id="usrtel" pattern="^[0-9]{3,45}$" maxlength="11" placeholder="Phone number"><br><br>		
+		</label>
+	
+			Please select the newsletters you want to receive
+			
+	    <label>
+			<input type="checkbox" id="Features Newsletter" value="Features Newsletter" text="Features Newsletter"> Features Newsletter
+			<input type="checkbox" id="Announcements" value="Announcements" text="Announcement"> Announcements
+		</label>
+		</div>
+
+		<div class="container">
+			<input type="submit" id="submit"value="Subscribe">
+			<input type="reset" id="cancel" value="Cancel">
+		</div>
+		</fieldset>
+		</form>
+		</section>
+		
+		<footer>
+			<h4>Developed: by Carlo</h4>
+		</footer>
+	</body>
+</html>

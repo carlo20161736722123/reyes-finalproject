@@ -1,0 +1,213 @@
+
+
+.wavetext span {
+	margin-top: 50px;
+	margin-left: 70px;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 1s;
+  animation-delay: calc(.5s * var(--i));
+  text-shadow: 5px 5px black;
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+.wavetext2{
+	margin-top: 350px;
+	margin-left: 550px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.8s * var(--i));
+  text-shadow: 2px 2px #ff0000;
+  
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+/* Style the navigation bar */
+.navbar{
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbarf{
+	background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a{
+ float: left;
+  text-align: center;
+  padding: 15px;
+  color: #990000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbarf a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: #990000;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: white;
+}
+
+.navbarf a:hover {
+  background-color: white;
+}
+#navbar2 a:hover {
+  background-color: white;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: blue;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+body {
+	 font-family: Arial, Helvetica, sans-serif, Cursive, Monospace;
+	background-color: black;
+	background-image: url("../src/bgcar3.jpg");
+	 background-repeat: no-repeat;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 100%;
+}
+
+
+h2{
+	text-align: center;
+	font-family: Cursive;
+}
+
+
+h1{
+	text-align: center;
+	font-family: Helvetica;
+}
+
+
+img {
+  height: 40%;
+  width: 42%;
+  padding: 5px;
+  border: 5px solid #ddd;
+    margin-left: 50px;
+}
+
+video{
+height: 40%;
+  border: 5px solid #ddd;
+  padding: 5px;
+  margin-left: 50px;
+   width: 42%;
+}
+
+.car1, .car2, .car3, .car4, .car5{
+	 border: 5px solid #ddd;
+	 margin: 100px;
+	 border-color: black;
+}
+
+#section-1{
+	font-size:50px;
+	margin-top: 150px;
+	background-image: url("../src/bgsc1.png");
+	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#contact{
+	text-align:center;
+}
+
+#contact{
+  border-radius: 10px;
+  background-color: gray;
+  padding: 5px;
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+fieldset{
+background-color: white;
+}
+
+
+h1{
+	color: #990000;
+}
+ul{
+	text-align: center;
+	font-size: 30px;
+	margin: 15px;
+	font-family: Monospace;
+	
+}
+li{
+	margin-left: 100px;
+}
+
+
+hr{
+	height: 2px;
+	background-color: #4d0000;
+
+}
+
+#navbar2{
+	background-image: url("../src/bgcar.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  font-size: 30px;
+    text-decoration: none;
+	 
+
+}
+
+.car1, .car2, .car3, .car4, .car5{
+	background-color: white;
+}
+
+#section-1{
+	background-color: white;
+	 border-radius: 10px;
+
+	
+	 
+}
